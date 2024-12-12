@@ -119,7 +119,7 @@ The Talking Borders experiment consisted of three stages: the collection of mono
 
 <!-- #endregion -->
 
-<!-- #region jdh={"object": {"source": ["Number of Participants who participated in all Conversation Formats"], "type": "table"}} tags=["hermeneutics", "table-participants-all-*"] -->
+<!-- #region jdh={"object": {"source": ["Number of Participants Who Participated in all Conversation Formats"], "type": "table"}} tags=["hermeneutics", "table-participants-all-*"] -->
 | Participant        | Number |
 |--------------------|--------|
 | Border Scholars    | 3     |
@@ -135,7 +135,7 @@ The citizen scientists came from a wide range of disciplinary backgrounds in the
 The composition of the citizen scientists was based on the indication of mother tongue in the 1910 census (published in 1912), the last of the decennial censuses conducted under the Habsburg monarchy. The methodology practised in these censuses differed slightly between regions: while citizens were asked about their mother tongue in Transleithania, in Cisleithania and Bosnia they were asked to indicate the language they used in everyday conversation. In addition, Bosnian ‘Serbo-Croatians’ (the inhabitants of Bosnia who identified ‘Serbo-Croatian’ as their mother tongue) were then differentiated according to their religion and minorities constituting less than 1% of the populace were not considered. (<cite data-cite="8820477/3LJPVN9B"></cite>, 557.)
 <!-- #endregion -->
 
-<!-- #region jdh={"module": "object", "object": {"source": ["table 1: Composition of citizen scientists based on census data from 1910"]}} tags=["hermeneutics", "table-mother-tongue-*"] -->
+<!-- #region jdh={"module": "object", "object": {"source": ["table 1: Composition of Citizen Scientists Based on Census Data from 1910"]}} tags=["hermeneutics", "table-mother-tongue-*"] -->
 Mother tongue|Percentage of the population in 1910|Proposed number of of Citizen Scientists|Actual number of participants
 ---|---|---|---
 German|23.9|24 (from Austria)| 18
@@ -163,7 +163,7 @@ Although some participants withdrew from the project during the preparation phas
 !pip install --upgrade pip
 ```
 
-```python jdh={"module": "object", "object": {"source": ["Distribution of citizen scientists by country in percent"]}} tags=["figure-pie-chart-citizen-scientistists-country-*"]
+```python jdh={"module": "object", "object": {"source": ["Distribution of Citizen Scientists by Country in Percent"]}} tags=["figure-pie-chart-citizen-scientistists-country-*"]
 import plotly.graph_objects as go
 import plotly.io as pio
 pio.renderers.default = 'notebook'
@@ -193,7 +193,7 @@ The border scholars specialised in borders or border-related research topics, wi
 During the 2018 spring semester, [anonymised] taught an introductory course on scientific methods for Bachelor students in education at the University of Vienna, in which 19 students were involved in preparing the experiment. They brainstormed and discussed what they wanted the project website to look like. This process of requirement engineering resulted in a brief for the website programmer. They then co-created the website for the citizen science project (<cite data-cite="8820477/3NFGF8UP"></cite>). The website was an information site about the citizen science experiment, where participants could also download key documents such as the informed consent form. At the start of the experiment, each participant was assigned a pseudonym as a user name. The real names of the interview participants are known to the members of the project team.
 <!-- #endregion -->
 
-```python jdh={"module": "object", "object": {"source": ["figure 3: A cartoon produced by citizen scientists Christopher Pomerenke and Selina Ehrenhofer during preparations for the citizen science experiment"]}} tags=["hermeneutics", "figure-cartoon-*"]
+```python jdh={"module": "object", "object": {"source": ["figure 3: A Cartoon Produced by Citizen Scientists Christopher Pomerenke and Selina Ehrenhofer during Preparations for the Citizen Science Experiment"]}} tags=["hermeneutics", "figure-cartoon-*"]
 from IPython.display import Image
 display(Image("media/cartoon.png"))
 ```
@@ -218,13 +218,13 @@ Participants prepared for the experiment in different ways. While some citizen s
 On the day of the experiment, the participants were seated in groups of two in proximity to each other in the main hall of the venue. They were given a time slot of 1.5 hours to hold the conversation. Each participant received a digital dictaphone to ensure that conversations were recorded twice in case one device experienced technical issues. Despite the trial run the day before, some citizen scientists did not manage to record their dialogues or were unsure about the instructions (Pseudonyms: Life, Wolverival, Zerobot, GamerKraken, Positive Twin, Baroqueen, Spillager). After 18 minutes of monologue, Termime, for example, said:
 <!-- #endregion -->
 
-```python tags=["narrative", "hermeneutics", "sound-conversation-length-*"]
+```python tags=["hermeneutics", "sound-conversation-length-*"]
 import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_1.m4v')  # Replace with the actual file path
 
 ```
 
-<!-- #region tags=["hermeneutics", "dialog-conversation-length-*"] -->
+<!-- #region tags=["hermeneutics", "dialogue-conversation-length-*"] -->
 Termine | Aura
 ------ | ---
 And euhm, euhm, what can I say? Hm. Euhm. So, hm. But we have to do 20 minutes each? | &nbsp;
@@ -243,7 +243,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/PA_AUDIOCUT_1.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["hermeneutics", "dialog-worldcup-*"] -->
+<!-- #region tags=["hermeneutics", "dialogue-worldcup-*"] -->
 | Priestar | Aspect |
 |------- | ------ |
 | So, who do you think about it? Who will win the World Cup? | &nbsp; |
@@ -262,12 +262,12 @@ ipd.Audio('media/Audio_Fragments/PA_AUDIOCUT_1.m4v')  # Replace with the actual 
 In many other conversations we can observe how participants expressed appreciation or admiration for their interlocutors’ contributions. This phenomenon was also observed in the conversation between Termime and Aura.
 <!-- #endregion -->
 
-```python tags=["narrative", "hermeneutics", "sound-admiration-*"]
+```python tags=["hermeneutics", "sound-admiration-*"]
 import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_2.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["hermeneutics", "dialog-admiration-*"] -->
+<!-- #region tags=["hermeneutics", "dialogue-admiration-*"] -->
 | Termine | Aura |
 | ------- | ------- |
 | really well<br> That text that you wrote was very | &nbsp; |
@@ -320,12 +320,12 @@ A comparison of the first and second transcription of a fragment from the dialog
 > **Aura**: _I didn’t know anything about Sopron, for example, I, I only see that the people, the the country is, Austria is, Austria is a rich country. Hungary was always a, a poor country, and, but I had never_
 <!-- #endregion -->
 
-```python tags=["hermeneutics", "sound-rich-poor-countries-*", "narrative"]
+```python tags=["hermeneutics", "sound-rich-poor-countries-*"]
 import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_3.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["table-rich-poor-countries-*", "dialog-rich-poor-countries-*"] -->
+<!-- #region tags=["table-rich-poor-countries-*", "dialogue-rich-poor-countries-*"] -->
 | Termime | Aura |
 | ------- | ------- |
 | I didn’t know anything about Sopron for example I<br> I<br> I only see that the people<br> eh the the the countries | &nbsp;
@@ -349,7 +349,7 @@ Termime was selected from the University of Trieste, where she was enrolled on a
 
 Following the dissolution of the Austro-Hungarian monarchy, the peace treaties signed at the Paris Peace Conference in 1919 caused a major redrawing of the map of Europe. Two treaties recognised the independent status of newly emerged nation-states on the territory of the former Austro-Hungarian Empire. The Treaty of Saint-Germain-en-Laye divided the Austrian part of the Dual Monarchy between the interwar Austrian state, Czechoslovakia, Poland, Romania, Italy and the Kingdom of Serbs, Croats and Slovenes. The Treaty of Trianon divided the Hungarian part of the Dual Monarchy between the interwar Hungarian state, Romania, Czechoslovakia, the Kingdom of Serbs, Croats and Slovenes, Austria and the Free State of Fiume (nowadays Rijeka), which emerged in 1921, operated under the auspices of the League of Nations and was annexed to Italy in 1924. In the Adriatic, the division of land between Italy and the Kingdom of Slovenes, Croats and Serbs was specified in the 1920 Treaty of Rapallo. The Austrian Littoral (also referred to as the Venezia Giulia) was a strip of land east of Trieste that was included in Italy; it contained approximately 300,000 or one quarter of the world’s Slovenian-speaking population (<cite data-cite="8820477/CKCWHURP"></cite>, 4).
 
-<!-- #region jdh={"module": "object", "object": {"source": ["Changes to the Italian Eastern borders from 1920 to 1975. Public Domain. Source: Wikipedia."]}} tags=["figure-changes-to-border-*"] -->
+<!-- #region jdh={"module": "object", "object": {"source": ["Changes to the Italian Eastern Borders from 1920 to 1975. Public Domain. Source: Wikipedia."]}} tags=["figure-changes-to-border-*"] -->
 ![Image](https://upload.wikimedia.org/wikipedia/commons/9/9d/Litorale_1.png)
 <!-- #endregion -->
 
@@ -412,7 +412,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_4.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-border-xp-*"] -->
+<!-- #region tags=["dialogue-border-xp-*"] -->
 | Termine | Aura |
 |-------- | -------- |
 | so eahm to me the border it has a very familiar<br> like<br> it’s very familiar to me because<br> I grew up on the border with Slovenia | &nbsp; |
@@ -544,7 +544,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_8.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-Hungary-bg-*"] -->
+<!-- #region tags=["dialogue-Hungary-bg-*"] -->
 | Termine | Aura |
 | ------- | ------- |
 | eh you<br> like<br> grew up when (unclear)<br> so on<br> on the Hungarian border<br> well on the Austrian border | &nbsp; |
@@ -579,7 +579,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_10.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-xenophopic-remarks-*"] -->
+<!-- #region tags=["dialogue-xenophopic-remarks-*"] -->
 | Termime | Aura |
 | --- | --- |
 | &nbsp; | Yeah genau at the beginning<br> But in the last years it's |
@@ -611,7 +611,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_11.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-communism-*"] -->
+<!-- #region tags=["dialogue-communism-*"] -->
 | Termime | Aura |
 | --- | --- |
 | yeah also eahm Italians are like that<br> like<br> we are more important than you | &nbsp; |
@@ -645,7 +645,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_13.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-open-borders-*"] -->
+<!-- #region tags=["dialogue-open-borders-*"] -->
 | Aura | Termime |
 | ---- | ---- |
 | I think I am for open borders because I'm<br> I feel<br> ehm<br> I feel I am a part of Europe not not only of Austria<br> And I feel<br> that is<br> you know Bratislava is is near to me and<br> and Innsbruck is | &nbsp; |
@@ -666,7 +666,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_14.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-controlled-border-*"] -->
+<!-- #region tags=["dialogue-controlled-border-*"] -->
 | Aura | Termime |
 | ---- | ---- |
 | I doesn't understand why why<br> why are our government<br> has this few because because<br> the problem with refugees are not only the problem of Italy or Greece<br> It is also<br> part of our problem<br> with Europe we are once [one] and and I don't understand<br> why we make or<br> aehm<br> why we try to make this borders again | &nbsp; |
@@ -684,7 +684,7 @@ import IPython.display as ipd
 ipd.Audio('media/Audio_Fragments/AT_AUDIOCUT_15.m4v')  # Replace with the actual file path
 ```
 
-<!-- #region tags=["dialog-post-communist-past-*"] -->
+<!-- #region tags=["dialogue-post-communist-past-*"] -->
 | Termime | Aura |
 | ------- | ------- |
 | But it was like a<br> it was like a physical border like you have to go there<br> and check<br> like<br> | &nbsp;
